@@ -3,6 +3,213 @@
     padding: 0;
 }
 
-#gif {
-    width: 88%;
+body {
+    background-color: #F7F7F7;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Poppins';
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+#gifBanner {
+    background-image: url(../images/giffen.gif);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 50%;
+    background-attachment: fixed;
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 15% 5% 15%;
+    font-size: 1.2em;
+    line-height: 160%;
+}
+
+#item1 h1 {
+    margin-bottom: 2%;
+}
+
+#item2 {
+    margin-left: 5%;
+}
+
+#item2 h1 {
+    margin-bottom: 3%;
+}
+
+#flexcontainer2 {
+    text-align: center;
+}
+
+#vidHilal {
+    width: 70%;
+}
+
+#picHilal {
+    background-image: url(../images/hilal.jpg);
+    width: 100%;
+    padding: 20% 0 20% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#picText {
+  text-align: center;
+  color: black;
+    border: 2px solid black;
+    background-color: white;
+    opacity: 75%;
+    padding: 1%;
+    margin: 0 40% 0 40%;
+}
+
+#flexcontainer3 {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5% 7% 5%;
+    background-color: #F5F5F5;
+    border: 1px solid #000;
+}
+
+#flexcontainer3 h2 {
+    margin-right: 2%;
+    color: #000;
+    text-align: center;
+    font-size: 3em;
+}
+
+#flexcontainer3 p {
+    margin: 0 10% 0 10%;
+    color: #000;
+    line-height: 160%;
+    max-width: 35em;
+}
+
+#picHilal2 {
+    background-image: url(../images/hilal2.jpg);
+    width: 100%;
+    margin-top: 5%;
+    padding: 20% 0 20% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F7F7F7;
+    border: 1px solid #000;
+}
+
+#picMenu {
+    width: 35%;
+    margin: 10% 5% 10% 0;
+    float: left;
+    filter: gray; 
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .8s ease-in-out; 
+}
+
+#picMenu:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
+
+#picMenu2 {
+    width: 35%;
+    margin: 10% 5% 10% 0%;
+    float: right;
+    filter: gray; 
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .8s ease-in-out; 
+}
+
+#picMenu2:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+}
+
+#wrapper h1 {
+    margin-top: 2%;
+}
+
+#picHilal3 {
+    background-image: url(../images/kniv.JPG);
+    width: 100%;
+    padding: 20% 0 20% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 5%;
+    margin: 2% 2% 2% 4.5%;
+}
+
+footer {
+    background-color: #F7F7F7;
+    border: 1px solid #000;
+}
+
+.footer {
+    display: flex;
+}
+
+#adresse, #mail, #abning, #telefon {
+    margin: 3% 2% 8% 5%;
+}
+
+#face {
+    width: 5%;
+    margin: 3% 2% 2% 8%;
+}
+
+#copyright {
+    text-align: center;
+    padding: 0% 0% 4% 0%;
+    color: grey;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#back-to-top:hover {
+  background-color: #555;
 }

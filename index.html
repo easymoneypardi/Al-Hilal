@@ -3,61 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Al-Hilal Slagter - Vi har de bedste og billigte bøffer i landet. Kalve okse og lam.</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap" rel="stylesheet">
+    <title>Al-Hilal Slagter</title>
 </head>
 <body>
-<div>
-    <video id="gif">
-        <source src="video/gif.mp4" type="video/mp4">
-    </video>
-</div>
+<div id="gifBanner"></div>
+
+<audio id="gifMusic" src="audio/pinkFlamenco.mp3"></audio>
+
 
 <div id="flexcontainer">
-    <h1>Lorem impsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, commodi quisquam libero atque! Velit veniam repudiandae, quae dignissimos dolorum odio.</p>
-    <h1>Lorem impsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non soluta asperiores itaque nam blanditiis fugit culpa, commodi officiis iure.</p>
+    <div id="item1">
+    <h1>Kød af kvalitet!</h1>
+    <p>Al Hilal Slagter har været med fra Bazar Vests begyndelse tilbage i 1996. Butikken har siden da vokset gevaldigt. Her er der tale om en slagter, hvor både kvalitet og hygiejne er helt i top! Der forhandles alskens limousinekød i forretningen. Du kan købe okse, lam, kalv, kylling og hele/halve lam. Naturligvis Halal.</p>
+    </div>
+    <div id="item2">
+    <h1>Bag om butikken</h1>
+    <p>Zoheir Awad har nu drevet Al Hilal Slagter i Bazar Vest mere end 15 år, og kan bryste sig med at have vundet en bruger-undersøgelse i Tv-programmet "Rene ord for pennge". Derudover også prisen for billigste og mest møre kød i Danmark.</p>
+    </div>
 </div>
 
 <div id="flexcontainer2">
-    <video id="video" src="#"></video>
+    <video id="vidHilal" src="video/hilal.mp4" controls>
+        <source src="video/hilal.mp4" type="video/mp4">
+    </video>
 </div>
+
+<div id="picHilal2">
+<div id="picText">
+    <h1>Fordele ved Halal</h1>
+</div>
+    </div>
 
 <div id="flexcontainer3">
-    <h2>lorem ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam illo iste excepturi cumque odio maxime repellendus reiciendis explicabo commodi error.</p>
-    <h2>lorem ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, suscipit. Molestias laudantium est eveniet excepturi, tenetur tempora sed itaque ratione.</p>
-    <h2>lorem ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quod ab impedit eum sapiente excepturi cupiditate eveniet nisi earum natus!</p>
+    <div id="item1-2">
+    <h2>1.</h2>
+    <p>Vores dyr bedøves altid forud for aflivning. På den måde minimerer vi risikoen for, at dyret føler smerte under slagtningen.</p>
+    </div>
+    <div id="item2-2">
+    <h2>2.</h2>
+    <p>Vi behandler altid vores dyr med respekt, og derfor må dyret hverken tørste eller sulte frem mod slagtningen. Det er vigtigt for os at de andre dyr ikke ser slagtningen, ligesom kniven, der benyttes, ikke må slibes i dyrets nærvær.</p>
+    </div>
+    <div id="item3">
+    <h2>3.</h2>
+    <p>Halalslagtning i forhold til den danske slagtning har hverken betydning for dyrevelfærden, kvaliteten af kødet eller fødevaresikkerheden.</p>
+    </div>
 </div>
 
-<div id="flexcontainer4">
-    <img src="#" alt="Background photo of Al-Hilal butcher">
-</div>
+<div id="picHilal"></div>
+    
+    <div id="wrapper">
+       <h1>UDVALG</h1>
+        <img id="picMenu" src="images/lamb.jpg" alt="Photo of lamb T-Bone" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+        <img id="picMenu2" src="images/steak.jpg" alt="Photo of Steak meat" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+        <audio id="mySound" src="audio/beefRoast.mp3"></audio>
+    </div>
+    
+    <div id="picHilal3"></div>
+
+<button class="scroll" id="back-to-top" title="Go to top">Top</button>
 
 <script src="js/script.js"></script>
 </body>
 <footer>
-    <ul>
-        <li>Åbningstider:
-            <ul>
-                <li>Mandag: Lukket</li>
-                <li>Tirsdag - Søndag: 10.00 - 18.00</li>
-            </ul>
-        </li>
-        <li>Lokalitet:
-            <ul>
-                <li>Edwin Rahrs Vej 32</li>
-                <li>8220 Brabrand</li>
-            </ul>
-        </li>
-        <li>Kontakt os:
-            <ul>
-                <li>Tlf: 86 25 74 74</li>
-            </ul>
-        </li>
-    </ul>
+  <img id="logo" src="images/logo.png" alt="Logo Al-Hilal Butcher">
+  <div class="footer">
+  
+  <div id="mail">
+  <h2>MAIL</h2>
+  <p>zohierawad@mail.dk</p>
+  </div>
+  
+  <div id="telefon">
+  <h2>TELEFON</h2>
+  <p>86 25 42 45</p>
+  </div>
+  
+  <div id="adresse">
+  <h2>ADRESSE</h2>
+  <p>Al-Hilal Slagter</p>
+  <p>Edwin Rahrs Vej 32</p>
+  <p>8220 Brabrand</p>
+  </div>
+  
+  <div id="abning">
+  <h2>ÅBNINGSTIDER</h2>
+   <p>Mandag: Lukket<br>Tirsdag - Søndag: 10.00 - 18.00</p>
+   </div>
+     
+     <div id="face">
+         <a href="https://www.facebook.com/Al-Hilal-Slagter-641530122682745/" target="_blank"><img src="images/faceicon.png" alt="facebook" id="faceicon"></a>
+      </div>
+       </div>
+       
+      <p id="copyright">Made by Group 6, Team E &copy; 2020</p>          
     
 </footer>
 </html>
